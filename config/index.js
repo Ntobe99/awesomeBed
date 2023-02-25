@@ -8,8 +8,6 @@ let connection =createPool(
         user:process.env.DB_USER,
         password:process.env.DB_PSWD,
         port:process.env.DB_PORT,
-        multipleStatements:true
-
-    }
+        multipleStatements:true  }
 )
 module.exports=connection;
